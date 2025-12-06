@@ -6,12 +6,9 @@
   <title>Cyber Safety Guide</title>
 
   <style>
-    /* Smooth Scroll */
     html {
       scroll-behavior: smooth;
     }
-
-    /* PAGE FADE-IN */
     body {
       margin: 0;
       font-family: Arial, sans-serif;
@@ -52,8 +49,6 @@
       position: relative;
       z-index: 1;
     }
-
-    /* Floating particles background */
     .particles {
       position: fixed;
       inset: 0;
@@ -76,8 +71,6 @@
       from { transform: translateY(100vh); }
       to { transform: translateY(-10vh); }
     }
-
-    /* generate 20 particles with unique positions */
     .particle:nth-child(1) { left: 5%; animation-delay: 0s; }
     .particle:nth-child(2) { left: 15%; animation-delay: 1s; }
     .particle:nth-child(3) { left: 25%; animation-delay: 2s; }
@@ -98,8 +91,6 @@
     .particle:nth-child(18) { left: 80%; animation-delay: 2.7s; }
     .particle:nth-child(19) { left: 90%; animation-delay: 3.7s; }
     .particle:nth-child(20) { left: 98%; animation-delay: 4.7s; }
-
-    /* CARD BASE */
     .card {
       background: rgba(255, 255, 255, 0.07);
       padding: 20px 25px;
@@ -114,14 +105,10 @@
       animation-timeline: view();
       animation-range: entry 0% cover 40%;
     }
-
-    /* Scroll animation */
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(40px); }
       to   { opacity: 1; transform: translateY(0); }
     }
-
-    /* Breathing glow */
     .card {
       animation: fadeUp 1s ease forwards, glow 3s ease-in-out infinite alternate;
     }
@@ -134,14 +121,12 @@
         box-shadow: 0 0 20px rgba(0, 234, 255, 0.7);
       }
     }
-
-    /* 3D hover tilt (CSS only) */
     .card:hover {
       transform: perspective(800px) rotateX(8deg) rotateY(8deg) scale(1.04);
       background: rgba(255, 255, 255, 0.12);
     }
 
-    /* Glowing Cyber Cursor */
+    
     .cursor {
       position: fixed;
       width: 22px;
@@ -162,8 +147,6 @@
 </head>
 
 <body>
-
-  <!-- Floating particles -->
   <div class="particles">
     <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
     <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
@@ -171,8 +154,6 @@
     <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
     <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
   </div>
-
-  <!-- Cyber cursor -->
   <div class="cursor"></div>
 
   <header>
@@ -210,7 +191,7 @@
     </div>
 
     <div class="card">
-      <h2> Protect Your Devices</h2>
+      <h2>Protect Your Devices</h2>
       <ul>
         <li>Install antivirus software.</li>
         <li>Keep your device updated.</li>
@@ -259,9 +240,9 @@
   </div>
 
   <footer>
+    Created by-Uday Tej Sade<br>
     © 2025 Cyber Safety Guide | Stay Safe, Stay Smart Like me
   </footer>
 
 </body>
 </html>
-
